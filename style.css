@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+h1, h2, h3{
+    font-family: 'DM Sans';
+}
+h4{
+    font-family: 'Karla';
+}
+p{
+    font-family: 'Karla';
+    font-size: 16pt;
+}
+#pills-tab{
+    height:100px;
+    margin-top: 4rem;
+    align-content:center ;
+    justify-content: center;
+    font-family:'Karla';
+    font-size: 18pt;
+}
+.nav-link{
+    background-color: white;
+    color: black;
+    
+}
+.nav-item{
+    gap:20px;
+    padding:20px;
+}
+
+/* hero */
+#introduction{
+    display: flex;
+    justify-content: center;
+    margin-bottom:15rem;
+    margin-top: 15rem;
+
+}
+.intro-container{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+}
+#intro-text{
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+section{
+    margin-left:120px;
+    margin-right:120px;
+}
+/* research section */
+.research-text-container-2, .research-text-container-3{
+    margin-bottom:7rem;
+}
+.definition-text-container-1, .definition-text-container-2, .definition-text-container-3, .definition-text-container-4{
+    margin-bottom:7rem;
+}
+#userflow{
+    margin-bottom:7rem;
+}
+.wireframing-container{
+    margin-bottom:7rem;
+}
+.prototype{
+    margin-bottom: 7rem;
+}
+.project-exp{
+    margin-bottom:7rem;
+}
+.col-6{
+    align-content: center;
+}
+.col-sm-4{
+    align-content: center;
+}
+.col-sm-6{
+    align-content: center;
+}
+.research{
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 7rem;
+    gap:60px;
+    background-color: #F4F3F3;
+    padding:40px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.research-text{
+    align-content: center;
+    justify-self: flex-start;
+}
+.definition-text-container-2{
+    display: flex ;
+}
+#footer{
+    height:80px;
+    margin-top:7rem;
+}
+.project-exp{
+    margin-top:3rem;
+}
+
+

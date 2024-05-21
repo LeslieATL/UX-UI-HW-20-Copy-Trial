@@ -1,0 +1,68 @@
+/* for phones */
+@media (max-width:768px){
+    nav{
+        height:fit-content;
+    }
+    body{
+        padding:20px;
+    }
+   #pills-tab{
+    font-size: 12pt;
+    justify-content: center;
+    margin-top:1.5rem;
+   } 
+   .nav-item{
+    padding:0;
+   }
+   #img-fluid{
+    width:300px;
+   }
+   .intro-container{
+    grid-template-columns: 1fr;
+    
+   }
+   #introduction{
+    margin-top:4rem;
+    margin-bottom:4rem;
+    justify-content: center;
+   }
+   section{
+    padding:20px;
+    margin:0;
+   }
+   p{
+    font-size: 14px;
+   }
+   #research{
+    padding-left:10px;
+   }
+   #logit-3screens{
+    width:350px;
+   }
+   #img-big{
+    width:300px;
+   }
+   .research{
+    flex-direction: column;
+   }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .research-text-container-2 .col-6, 
+    .container .col-sm-6 {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .intro-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+}
